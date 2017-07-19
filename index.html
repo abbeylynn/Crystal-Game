@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<html>
+
+<head>
+
+ 	<title>Crystal Game</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+ 
+</head>
+
+<body>
+
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-6" id="page-header">
+  			<h1>Crystals Collector!</h1>
+  		</div>
+		</div>
+	
+	<div class="row">
+		<div class="col-md-6" id="game-rules">
+			<p>You will be given a random number at the start of the game.</p>
+			<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+			<p>The value of each crystal is hidden from you until you click on it</p>
+			<p>Each time the game starts, the game will change the values of each crystal.</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-3" id="random">
+			<p id="random-number"></p>
+		</div>
+
+		<div class="col-md-2" id="wins-and-losses">
+			<strong>
+				<p>Wins: <div id="win-count"></div></p>
+				<p>Losses: <div id="loss-count"></div></p>
+			</strong></div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6" id="jewel-buttons">
+				<div class="btn-toolbar" role="toolbar" aria-label="...">
+  				<div class="btn-group" id = "red-button" role="group" aria-label="..."><img src="images/red.jpg">
+  				</div>
+  				<div class="btn-group" id = "blue-button" role="group" aria-label="..."><img src="images/blue.jpg">
+  				</div>
+  			<div class="btn-group" id = "green-button" role="group" aria-label="..."><img src="images/green.jpg">
+  			</div>
+  			<div class="btn-group" id = "yellow-button" role="group" aria-label="..."><img src="images/yellow.jpg">
+  			</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6" id="score">
+				<p></p>
+			</div>
+		</div>
+
+	</div>
+		
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="javascript/game.js"></script>
+  
+</body>
+</html>

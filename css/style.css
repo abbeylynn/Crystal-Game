@@ -1,0 +1,48 @@
+body{
+	background-image:url("../images/memphis-colorful.png");
+}
+
+#page-header {
+	background-color:green;
+	color:white;
+	width:33%;
+	padding:10px;
+	text-align:center;
+	margin-bottom:20px;
+}
+
+#game-rules {
+	background-color:#eee;
+	color:green;
+	font-size:20px;
+	text-align:center;
+	padding:30px;
+	margin-bottom:20px;
+}
+
+#random {
+	background-color:lightgreen;
+	font-size:36px;
+	padding:20px;
+	text-align:center;
+	margin-bottom:20px;
+	margin-right:20px;
+}
+
+#wins-and-losses {
+	background:lightblue;
+	font-size:14px;
+}
+
+img {
+	width:120px;
+	padding:10px;
+}
+
+#score {
+	background-color:teal;
+	font-size:36px;
+	color:white;
+	margin-top:20px;
+	text-align:center;
+}
