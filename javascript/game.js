@@ -81,10 +81,11 @@ winOrLose();
 
 function reset() {
   score=0;
-  randomNumberFromRange();
+  randomNumber = randomNumberFromRange(19,112);
   $("#random-number").html(randomNumber);
-console.log(randomNumber);
-$("#score").html("Total Score: " + score);
+  console.log(randomNumber);
+  console.log('this is score ' + score);
+  $("#score").html("Total Score: " + score);
 }
 
 //function to define win or lose actions
